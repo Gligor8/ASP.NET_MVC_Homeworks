@@ -27,7 +27,7 @@ namespace BookLibraryApp.Controllers
 
 
         }
-        [Route("BookLibraryApp/[BooksDetails]")]
+        //[Route("BookLibraryApp/[BooksDetails]")]
         public IActionResult BooksDetails()
         {
             
