@@ -1,0 +1,11 @@
+﻿@model BookLibraryApp.Models.Domain.Book
+
+<h1> Knjiga   </h1>
+
+<ul>
+    <li>ID: @ViewBag.Book.ID </li>
+    <li>Title: @ViewBag.Book.Title </li>
+    <li>Year: @ViewBag.Book.Year </li>
+    <li>Author: @ViewBag.Book.Authors.FirstName.LastName </li>
+    
+</ul>
