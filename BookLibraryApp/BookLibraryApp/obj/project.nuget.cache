@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cAhT2bYTcGmkIDZOMJpvwBRTA6KqLshdDoiQOcHepBuxX9v566U1oJa/vleE83wCveFGBwg8sNIQH6vMlYitUA==",
+  "dgSpecHash": "q4A3w5lPMoT2kZ0g+1pYnVjGom3RJo1QlffFRNvIxZOpXjvwSgeytBjTOeXn41p8e+MK4Rs905BZu9iMrbD40g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\BookLibraryApp\\BookLibraryApp\\BookLibraryApp.csproj",
+  "projectFilePath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\ASP.NET_MVC_Homeworks\\BookLibraryApp\\BookLibraryApp\\BookLibraryApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gligor\\.nuget\\packages\\documentformat.openxml\\2.13.0\\documentformat.openxml.2.13.0.nupkg.sha512",
     "C:\\Users\\Gligor\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"

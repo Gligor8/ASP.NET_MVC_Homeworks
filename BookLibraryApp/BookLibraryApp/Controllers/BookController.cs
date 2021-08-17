@@ -27,9 +27,10 @@ namespace BookLibraryApp.Controllers
 
 
         }
-
+        [Route("BookLibraryApp/[BooksDetails]")]
         public IActionResult BooksDetails()
         {
+            
             // =========== Book 01 ===========
 
             Author thackeray = new Author()

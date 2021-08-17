@@ -87,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\BookLibraryApp\\BookLibraryApp\\BookLibraryApp.csproj",
+      "projectUniqueName": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\ASP.NET_MVC_Homeworks\\BookLibraryApp\\BookLibraryApp\\BookLibraryApp.csproj",
       "projectName": "BookLibraryApp",
-      "projectPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\BookLibraryApp\\BookLibraryApp\\BookLibraryApp.csproj",
+      "projectPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\ASP.NET_MVC_Homeworks\\BookLibraryApp\\BookLibraryApp\\BookLibraryApp.csproj",
       "packagesPath": "C:\\Users\\Gligor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\BookLibraryApp\\BookLibraryApp\\obj\\",
+      "outputPath": "C:\\Users\\Gligor\\Desktop\\Code Classes\\ASP.NET_MVC\\MVC_Homework\\ASP.NET_MVC_Homeworks\\BookLibraryApp\\BookLibraryApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gligor\\AppData\\Roaming\\NuGet\\NuGet.Config",
