@@ -1,0 +1,38 @@
+﻿@model NewOrderViewModel
+
+<form asp-controller="User" asp-action="Registration" method="post">
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" />
+    <br />
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" />
+    <br />
+    <label asp-for="Pizza"></label>
+    <input asp-for="Pizza" />
+    <br />
+    <label>Choose size</label>
+    <select asp-for="Size" asp-items="Html.GetEnumSelectList<SEDC.PizzApp.Enums.Size>()">
+    </select>
+    <button type="submit">Submit user</button>
+</form>
+
+<br />
+<br />
+<br />
+<br />
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(x => x.FirstName)
+    @Html.TextBoxFor(x => x.FirstName)
+    <br />
+    @Html.LabelFor(x => x.LastName)
+    @Html.TextBoxFor(x => x.LastName)
+    <br />
+    @Html.LabelFor(x => x.Pizza)
+    @Html.TextBoxFor(x => x.Pizza)
+    <br />
+    @Html.DropDownList($"model.Pizza.Size", Html.GetEnumSelectList<SEDC.PizzApp.Enums.Size>(), new { @class = "form-control" })
+    <button type="submit">Submit user</button>
+}
+

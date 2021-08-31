@@ -1,0 +1,29 @@
+﻿@model Order
+//(============================= Homework 3 =============================)
+
+
+
+<h1>Order details</h1>
+<ul>
+    <li>ID: @Model.Id</li>
+    <li>Full name: @("Mr/s." + Model.User.FirstName + Model.User.LastName)</li>
+    <li>Pizza: @Model.Pizza</li>
+    <li>Price: @Model.Price</li>
+    <li>Delivered: @Model.Delivered</li>
+</ul>
+
+@{
+    string statusDelivery = "Not yet delivered.";
+
+    Model.Delivered = true;
+
+    if (Model.Delivered)
+    {
+        statusDelivery = "Delivered!";
+    }
+
+    for (int i = 0; i < 10; i++)
+    {
+        statusDelivery += i.ToString();
+    }
+}
